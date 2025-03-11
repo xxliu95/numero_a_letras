@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convertir Número a Letras</title>
+</head>
+<body>
+    <h1>Introduce un Número</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Convertir</button>
+    </form>
+
+    {% if resultado %}
+        <h2>Resultado: {{ resultado }}</h2>
+    {% endif %}
+</body>
+</html>
