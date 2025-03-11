@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-=xsl)v2qim_3ga&ys-c9e91^v7ranbchepokxsk@o3_jy33d!g
 DEBUG = True
 
 ALLOWED_HOSTS = ['numeroaletras-production.up.railway.app', 'localhost', '127.0.0.1']
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://numeroaletras-production.up.railway.app',
+]
 # Application definition
 
 INSTALLED_APPS = [
