@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/bg.png ");
+    background-size: cover;
+}
+
+.styled-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px; /* Optional rounded corners */
+}
